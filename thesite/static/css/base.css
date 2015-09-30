@@ -153,3 +153,34 @@ html, body {
 	line-height: 1.75em;
 	font-size: 16px;
 }
+
+@media (max-width: 900px) {
+	.we-are-img {
+		display: none;
+	}
+
+	.we-are-text {
+		margin: auto;
+		float: none;
+		width: 90%;
+		padding: 0;
+		text-align: justify;
+		font-size: smaller;
+	}
+
+	.we-are-text h3 {
+		text-align: center;
+	}
+}
+
+.happy-customers {
+	width: 100%;
+	padding-bottom: 100px;
+	padding-top: 60px;
+	float: left;
+}
+
+.carousel {
+	margin: auto;
+	width: 350px;
+}
