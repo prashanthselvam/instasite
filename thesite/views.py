@@ -4,3 +4,7 @@ from django.shortcuts import render
 
 def home(request):
     return render(request, 'thesite/home.html', {})
+
+
+def postercreate(request):
+	return render(request, 'thesite/postercreate.html', {})

@@ -64,7 +64,7 @@ html, body {
 }
 
 .header-content {
-	margin-top: 250px;
+	margin-top: 200px;
 }
 
 .header-content h1 {
@@ -78,6 +78,19 @@ html, body {
 	float: right;
 	color: white;
 	font-size: 18px;
+}
+
+.get-started {
+	background-color: #CC5806;
+	padding: 16px 52px;
+	border-radius: 25px;
+	float: right;
+	margin-top: 50px;
+}
+
+.get-started a {
+	color: #FFFFFF;
+    font-weight: 600;
 }
 
 @media (max-width: 992px) {
